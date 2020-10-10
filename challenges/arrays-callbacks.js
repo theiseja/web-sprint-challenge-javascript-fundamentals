@@ -94,12 +94,9 @@ function sayHello(firstName, lastName) {
   console.log(`Hello, ${firstName} ${lastName}, nice to meet you!`);
 }
 
-function greeting(callback) {
-  const firstName = 'Jesse';
-  const lastName ='Theisen'
- 
-}
-greeting(sayHello);
+function greeting(first, last){
+  return `Hello ${first} ${last}, nice to meet you!`
+};
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
